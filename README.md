@@ -1,12 +1,10 @@
 # jsdoc-x
 
-[![build-status](https://img.shields.io/travis/onury/jsdoc-x.svg?branch=master)](https://travis-ci.org/onury/jsdoc-x)
-[![npm](http://img.shields.io/npm/v/jsdoc-x.svg)](https://www.npmjs.com/package/jsdoc-x)
-[![release](https://img.shields.io/github/release/onury/jsdoc-x.svg)](https://github.com/onury/jsdoc-x/releases)
+[![npm](http://img.shields.io/npm/v/neo-jsdoc-x.svg)](https://www.npmjs.com/package/neo-jsdoc-x)
 [![license](http://img.shields.io/npm/l/jsdoc-x.svg)](https://github.com/onury/jsdoc-x/blob/master/LICENSE)
-[![downloads](https://img.shields.io/npm/dt/jsdoc-x.svg)](https://www.npmjs.com/package/jsdoc-x)
-[![dependencies](https://david-dm.org/onury/jsdoc-x.svg)](https://david-dm.org/onury/jsdoc-x)
-[![maintained](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/onury/jsdoc-x/graphs/commit-activity)  
+[![downloads](https://img.shields.io/npm/dt/neo-jsdoc-x.svg)](https://www.npmjs.com/package/neo-jsdoc-x)
+[![dependencies](https://david-dm.org/neomjs/jsdoc-x.svg)](https://david-dm.org/neomjs/jsdoc-x)
+[![maintained](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/neomjs/jsdoc-x/graphs/commit-activity)  
 
 > © 2020, Onur Yıldırım ([@onury](https://github.com/onury)). MIT License.
 
