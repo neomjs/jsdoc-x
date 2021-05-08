@@ -26,7 +26,7 @@ const jsdocx = {};
 // installed. and since we don't use the jsdoc module via require but a
 // specific file (jsdoc.js), we cannot be sure of its location. this method
 // will try to find it if exists.
-const jsdocjs = 'jsdoc/jsdoc.js';
+const jsdocjs = 'neo-jsdoc/jsdoc.js';
 try {
     const local = path.join('..', 'node_modules', jsdocjs);
     if (fs.pathExistsSync(local)) {
