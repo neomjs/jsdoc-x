@@ -1,13 +1,17 @@
 {
-  "name": "jsdoc-x",
-  "version": "4.1.0",
+  "name": "neo-jsdoc-x",
+  "version": "1.0.0",
   "description": "Parser for outputting a customized Javascript object from documented code via JSDoc's explain (-X) command. ",
   "license": "MIT",
   "author": "Onur Yıldırım <onur@cutepilot.com>",
   "contributors": [
-    "Justin Beaudry <me@justinbeaudry.dev>"
+    "Justin Beaudry <me@justinbeaudry.dev>",
+    "Tobias Uhlig <tobiasuhlig78@gmail.com>"
   ],
-  "repository": "onury/jsdoc-x",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neomjs/jsdoc-x.git"
+  },
   "main": "src/index.js",
   "files": [
     "src",
@@ -31,9 +35,9 @@
     "bluebird": "^3.7.2",
     "fs-extra": "^9.1.0",
     "glob": "^7.1.6",
-    "jsdoc": "^3.6.6",
     "json-stringify-safe": "^5.0.1",
     "lodash": "^4.17.21",
+    "neo-jsdoc": "^1.0.0",
     "tmp": "^0.1.0"
   },
   "devDependencies": {
