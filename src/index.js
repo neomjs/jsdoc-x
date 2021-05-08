@@ -282,6 +282,13 @@ jsdocx.filter = (docs, options, predicate) => {
 
     const access = normalizeAccess(options.access);
     let isCon, isDup, undoc, undesc, pkg, mdl, acc, ignored, o;
+
+    if (!options.undocumented) {
+        docs = docs.filter(symbol => {
+            return !symbol.undocumented || utils.isConstructor(symbol);
+        });
+    }
+
     docs = _.reduce(docs, (memo, symbol) => {
         // console.log(symbol.longname, symbol.kind, symbol.access, symbol.meta ? symbol.meta.code.type : '');
 
