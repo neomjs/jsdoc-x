@@ -125,6 +125,12 @@ const helper = {
         const cmdArgs = (args || []).concat();
         cmdArgs.unshift(file);
         return new Promise((resolve, reject) => {
+            const index = cmdArgs.indexOf('-r');
+
+            if (index > -1) {
+                cmdArgs.splice(index, 1);
+            }
+
             const proc = spawn('node', cmdArgs);
             let output = '';
             let err = '';
